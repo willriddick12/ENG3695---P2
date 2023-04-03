@@ -13,34 +13,27 @@ body {
 
 h1 {
     color: #ffffff;
-    font-size: 39px;
-    line-height: 42px;
-    margin-bottom: 50px;
+    text-align: left;
+    font-size: 25px;
 }
 
 h2 {
     color: #ffffff;
-    font-size: 28px;
-    line-height: 30px;
-    text-align: center;
-    margin-block-start: 40px;
-    margin-block-end: 30px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 0;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 26px;
 }
-
 
 .image-small {
     width: 40%;
     margin: 4%;
     border-radius: 8px;
 }
-
 
 .row_content {
     text-align: left;
@@ -85,7 +78,7 @@ a:hover {
 }
 
 li {
-    line-height: 110%;
+    line-height: 150%;
     margin: 0;
     padding: 0;
 }
@@ -146,20 +139,7 @@ li {
     margin-right: 20%;
 }
 
-.right-col h1 {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 24px;
-}
 
-.right-col h2 {
-    font-size: 21px;
-    line-height: 24px;
-    margin-bottom: 30px;
-    text-align: left;
-    margin-block-start: 20px;
-    margin-block-end: 10px;
-}
 
 .right-col p {
     font-size: 16px;
