@@ -24,13 +24,13 @@
                 
                 <a class="title" href="#gettingstarted">Getting Started</a> 
                 <a class="section" href="#materials">Materials</a>
-                <a class="section" href="#setup">Setup</a>
                 <a class="section" href="#goal">Goal</a>
+                <a class="section" href="#setup">Setup</a>
+                <a class="section" href="#firstturn">First Turn</a>
 
                 <a class="title" href="#howtoplay">How to Play</a>
-                <a class="section" href="#firstturn">First Turn</a>
+                <a class="section" href="#onyourturn">On Your Turn</a>
                 <a class="section" href="#buildingcosts">Building Costs</a>
-                <a class="section" href="#playing">Playing</a>
                 <a class="section" href="#trading">Trading</a>
                 <a class="section" href="#robber">The Robber and the Rule of Seven</a>
 
@@ -43,8 +43,7 @@
                 <h1 class="main-title" style="font-size: 40px">A Simple Guide to Catan</h1>
                 <p>Catan, pronounced kuh-tan, is a popular strategy board game released in 1995 where 
                 players compete to develop a civilization on a fictional island. The game can be played 
-                by three or four players, but can be played with up to six people with an additional 
-                expansion pack.</p> 
+                by three or four players, or up to six people with the expansion pack.</p> 
 
                 
 
@@ -52,12 +51,13 @@
 
                 <div class="divider"></div>
                 <h1 id="gettingstarted">Getting Started</h1>
-                <p>Catan may be played with 3 or 4 people and usually takes around an hour to play. Once 
-                    familiar, the game can be setup within 5 minutes creating a new
-                    play experience with each successive game</p>
+                <p>Catan usually takes around an hour to play but may take longer for unexperienced players.
+                    By nature, each successive playthrough of Catan is different from the last. Additionally,
+                    setup is simple and takes under five minutes.</p>
 
+                <img src="images/gamepieces.jpg" alt="Catan Game Pieces" class="image-small" style="width: 30%; float: right"></img>
                 <h2 id="materials">Materials</h2>
-
+                <img src="images/devcards.jpg" alt="Catan Development Cards" class="image-small" style="width: 30%; float: right"></img>
                 <ul>
                     <li>19 <em>Terrain Hexes</em> </li>
                     <li>6 <em>Sea Frame Pieces</em></li>
@@ -111,16 +111,18 @@
 
                 <img src="images/board.jpg" alt="Catan Board" class="image-small" style="float: right"></img>
                 <h2 id="setup">Setup</h1>
-                <p>Setting up Catan is relatively simple but is crucial to fun play experience. A key aspect of 
-                    Catant is the randomized layouts that make each game unique and engaging. Here are the steps
+                <p>Setting up Catan is relatively simple but is crucial to a fun play experience. A key aspect of 
+                    Catan is the randomized layouts that make each game unique and engaging. Here are the steps
                     you need to start a beginners game of Catan</p>
                 <ol>
-                    <li>Connect the 6 sea fram pieces like a puzzle matching the numbers on the interlocking joints</li>
+                    <li>Connect the 6 sea frame pieces like a puzzle making sure to match the numbers on the interlocking joints.</li>
                     <li>Shuffle the 19 terrain hexes and then place them on the board in a clockwise fashion, starting from the coast.</li>
-                    <li>Flip the 18 circular tokenss so that you may see the letter assigned to them.</li>
-                    <li>Starting on a random hex on the coast, place the cards in alphabetical order on each terrain hex in a clockwise fashion. 
+                    <li>Flip the 18 circular tokens so that you may see the letter assigned to them.</li>
+                    <li>Starting on a random hex on the coast, place the tokens in alphabetical order on each terrain hex 
+                        similar to how you placed the hexes. 
                     <li>Flip the circular tokens so that the number faces up on the ceter of each terrain hex. 
-                    <li>The setup is complete and the board has been randomized.</li>
+                    <li>More experienced players may opt to alter the board if there is an especially challenging layout. 
+                        Otherwise, the setup is complete and the board has been randomized.</li>
                 </ol>
 
 
@@ -140,11 +142,42 @@
                         each player has a second settlement and road on the board.</li>   
                     <li>The <b>first turn</b> is now complete and the player with the highest roll is ready to start the game.</li>
                 </ol>
+
+                <br>
+                <p>When placing your initial settlements there are a number of considerations you will have to make. 
+                    This placement will affect the rest of your game so choose wisely.</p>
+                <ul>
+                    <li><b>Chance:</b> Tokens with more dots below the numbers indicate a higher likelihood of being rolled with 7 
+                        being the highest and 2 and 12 being the lowest. Picking hexes that have common numbers (marked by red font) 
+                        are more likely to produce resources</li>
+                    <li><b>Resourec:</b> Each player starts with the resources of the hexes they settle around. Additionally, 
+                        you will likely want to settle on most of the individual resources to improve the chance that you will have them 
+                        at your disposal. Strategy here is crucial, however. Many players can opt to settle on a particular few resources 
+                        to monopolize and control the trade around those resources.</li>
+                    <li><b>Proximity:</b> Your proximity to other players and harbors has a significant effect on the outcome of your round.
+                        Optimally, you will want space to expand your empire. Additionally, locating yourself near or on a port could be of understand
+                        later in the game.</li>
+                </ul>
                 
 
                 <div class="divider"></div>
                 <h1 id="howtoplay">How to Play</h1>
                 
+                
+                
+                <h2 id="onyourturn">On Your Turn</h1>
+                <p>Catan has a very flexible set of rules for each turn. Individual turns can take some time 
+                    if trading is invloved so many players opt to limit the length with a timer. On your turn you:</p>
+                <ol> 
+                    <li>You must roll the dice before you do anything else. All players will collect the resources 
+                        associated with the number rolled. If you role a seven, make sure to take 
+                        advantage of the Rule of Seven, described below</li>
+                    <li>You may build and trade with other players or the bank for as long as you can afford (or until your time runs out).</li> 
+                    <li>After completing a turn, pass the dice clockwise to the next player to indicate your turn is complete.</li>
+                </ol>
+
+
+
                 <h2 id="buildingcosts">Building Costs</h1>
                 <div style="margin-left: 5%">
                 <p><b>Road:</b> Roads must be placed on a segment (the line between two hexes) and must connect to 
@@ -154,40 +187,33 @@
 
                 <p><b>Settlement:</b> Settlements may only be placed on a corner of a hex. This will connect the 
                     settlement to two or three adjacent hexes. Settlements must be placed two segments away 
-                    from any other segment (regardless of who owns it) and must be connected to one of your 
-                    roads. Settlements and cities produce material when the number assigned to them is 
-                    rolled.</p>
+                    from any other settlements (regardless of who owns it) and must be connected to one of your 
+                    roads. Settlements produce one resource (per settlement) when an adjacent hexes' number is rolled.</p>
 
-                <p><b>City:</b> A city may be built to replace a currently in-play settlement. The settlement is 
-                        simply taken off the board and replaced by the city. This will earn you double the 
-                        resources from the adjacent hexes and put 2 VPs into play for you.</p>
+                <p><b>City:</b> A city may be built to replace a currently in-play settlement. When purchase, the settlement is 
+                        simply taken off the board and replaced by the city. This will put 2 VPs into play for you.
+                        Additionally, cities produce two resources (per city) when an adjacent hexes' number is rolled.</p>
 
                 <p><b>Development Card:</b> The deck of 25 development cards acts like a lottery. 
                     A player may purchase a Development Card from the shop but may only play 
-                    them on their next turn. </p>
+                    them on their next turn. A player may play multiple development cards on a single turn. 
+                    Victory Point cards may only be played if playing them wins you the game. You should keep your Development
+                    cards hidden from your opponents.</p>
                 </div>
 
 
-
-                <h2 id="playing">Playing</h1>
-                <p>On your turn, you must roll the dice. All players will collect the resources associated with the number rolled. 
-                    Now the current player may build and trade with other players or the bank. Players 
-                    may build and trade for as long as they can afford, though some players may opt to 
-                    limit turns based on time. After completing a turn, pass the dice clockwise to the next player.</p>
-
-
-
+                
                 <h2 id="trading">Trading</h1>
                 <p>Trades may be made with other players, though they can only be initiated by a player 
                     who just rolled. These trades are made in whatever manner the two players see fit, 
-                    meaning it is very flexible how and what you trade.</p>
+                    meaning there is lots of flexibility with how and what you trade.</p>
                 <img src="images/resources.png" alt="Catan Resources" class="image-small" style="border-radius:  0; width: 75%; padding: 0%"></img>
-                <p>By default however, you may only trade with the bank in a four-to-one manner (4:1). 
-                    This means, you may trade four of the same resources, for any one resource of your 
-                    choosing. If you settle on a harbor location (found at the edge of the playing area) 
-                    players may observe that trade listed in the shop. For example, 3:1 ? means that the 
-                    player may trade with the bank in a 3:1 manner with any resource. 2:1 (resource) means 
-                    that the player may trade two of the resources listed for one other resource.</p>
+
+                <p><b>By default</b>, you may only trade with the bank in a four-to-one manner (4:1). 
+                    This means, you may trade four of the same resources, for any one resource of your choosing. 
+                    If you settle on a harbor location (found at the coast), you may observe that trade listed on that harbor.</p> 
+                <p><b>3:1 ?</b> means players may trade with the bank three of any single resource for one other resource of their choosing. </p>
+                <p><b>2:1 (resource)</b> means that the player may trade two of the resource listed for one other resource of their choosing.</p>
 
 
                 <h2 id="robber">The Robber and the Rule of Seven</h1>
@@ -198,11 +224,11 @@
                 <ol>
                     <li style="overflow: auto">
                         <img src="images/robber.jpg" alt="Catan Robber" class="image-small" style="float: left"></img>
-                        If a seven is rolled (note that it is the most common combination) a series of events occur:
+                        If a seven is rolled a series of events occur:
                         <ol style="list-style-type: upper-roman; padding-left: 20px">
                             <li>All players who have eight or more cards must give up half of their deck (rounding down). 
                                 If you have 11 cards, you may give up only 5, for example.</li>
-                            <li>The player who rolled the seven may choose to move the robber to a new hex.</li>
+                            <li>The player who rolled the seven may choose to move the robber to a new hex, blocking that resource.</li>
                             <li>The player who rolled the seven may choose to rob a player, as long as that player 
                                 has a settlement or city that the robber blocks.</li>
                         </ol>
